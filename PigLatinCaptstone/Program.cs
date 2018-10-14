@@ -19,32 +19,30 @@ namespace PigLatinCaptstone
                 Console.Write("Enter a word/sentence to be changed into pig latin: ");
                 string userEnteredWords = Console.ReadLine();
                 string[] split = userEnteredWords.Split();
-
+                
+                if (string.IsNullOrEmpty(userEnteredWords))
+                {
+                    Console.WriteLine("I need you to enter a word or sentence.");
+                }
                 foreach (string beenSplit in split)
                 {
-                    if (beenSplit.StartsWith("a") ||
-                        (beenSplit.StartsWith("e")) ||
-                        (beenSplit.StartsWith("i")) ||
-                        (beenSplit.StartsWith("o")) ||
-                        (beenSplit.StartsWith("u")))
+                    if (beenSplit.StartsWith("a") || (beenSplit.StartsWith("A") ||
+                        (beenSplit.StartsWith("e")) || (beenSplit.StartsWith("E") ||
+                        (beenSplit.StartsWith("i")) || (beenSplit.StartsWith("I") ||
+                        (beenSplit.StartsWith("o")) || (beenSplit.StartsWith("O") ||
+                        (beenSplit.StartsWith("u")) || (beenSplit.StartsWith("U")))))))
                     {
                         Console.WriteLine(beenSplit + "way");
                     }
-                    else if (!(beenSplit.StartsWith("a") ||
-                        (beenSplit.StartsWith("e")) ||
-                        (beenSplit.StartsWith("i")) ||
-                        (beenSplit.StartsWith("o")) ||
-                        (beenSplit.StartsWith("u"))))
+                    else 
                     {
                         string beenPigLatinified = PigLatinify(beenSplit);
                         Console.WriteLine(beenPigLatinified);
 
 
                     }
-                    else
-                    {
-                        Console.WriteLine("I need you to enter a sentence or a word.");
-                    }
+                    
+                    
                 }
                 run = Continue();
 
