@@ -1,0 +1,7 @@
+C:\Users\seank\source\repos\PigLatinCaptstone\PigLatinCaptstone\bin\Debug\PigLatinCaptstone.exe.config
+C:\Users\seank\source\repos\PigLatinCaptstone\PigLatinCaptstone\bin\Debug\PigLatinCaptstone.exe
+C:\Users\seank\source\repos\PigLatinCaptstone\PigLatinCaptstone\bin\Debug\PigLatinCaptstone.pdb
+C:\Users\seank\source\repos\PigLatinCaptstone\PigLatinCaptstone\obj\Debug\PigLatinCaptstone.csprojAssemblyReference.cache
+C:\Users\seank\source\repos\PigLatinCaptstone\PigLatinCaptstone\obj\Debug\PigLatinCaptstone.csproj.CoreCompileInputs.cache
+C:\Users\seank\source\repos\PigLatinCaptstone\PigLatinCaptstone\obj\Debug\PigLatinCaptstone.exe
+C:\Users\seank\source\repos\PigLatinCaptstone\PigLatinCaptstone\obj\Debug\PigLatinCaptstone.pdb
